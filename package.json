@@ -1,0 +1,26 @@
+{
+  "name": "starter-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "stryker": "NODE_OPTIONS=--experimental-vm-modules stryker run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/awerlang/starter-js.git"
+  },
+  "author": "André Werlang",
+  "bugs": {
+    "url": "https://github.com/awerlang/starter-js/issues"
+  },
+  "homepage": "https://github.com/awerlang/starter-js#readme",
+  "devDependencies": {
+    "@stryker-mutator/core": "^4.1.2",
+    "@stryker-mutator/jest-runner": "^4.1.2",
+    "@types/jest": "^26.0.15",
+    "jest": "^26.6.3"
+  }
+}
